@@ -74,7 +74,7 @@ const ByGender = () => {
       <Aside />
       <ContentSections>
         <TitleSections>
-          By Gender
+          By Genre
           {activeGenre && (
             <Styles.ActiveGenreName>{activeGenre}</Styles.ActiveGenreName>
           )}
@@ -82,7 +82,7 @@ const ByGender = () => {
         <Styles.ContentByGender>
           <Styles.SelectGenrer value={genres} onChange={handleChange}>
             <option disabled value="">
-              Select gender
+              Select genre
             </option>
             {genresToRender.map(({ id, name }) => (
               <option value={id} key={id}>

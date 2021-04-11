@@ -5,7 +5,7 @@ import { GlobalStyles } from "./GlobalStyles";
 import Header from "./components/Header";
 import NewReleases from "./components/NewReleases";
 import Trending from "./components/Trending";
-import ByGender from "./components/ByGender";
+import ByGenre from "./components/ByGenre";
 import CompleteMovie from "./components/CompleteMovie";
 import Page404 from "./components/404";
 import Search from "./components/Search";
@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<NewReleases />} />
           <Route path="/trending" element={<Trending />} />
-          <Route path="/by-gender" element={<ByGender />} />
+          <Route path="/by-genre" element={<ByGenre />} />
           <Route path="/movie/:movie" element={<CompleteMovie />} />
           <Route path="/search/:movie" element={<CompleteMovie />} />
           <Route path="/search" element={<Search />} />

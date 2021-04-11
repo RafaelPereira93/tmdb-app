@@ -20,8 +20,8 @@ const Aside = () => {
           </Styles.ListLink>
         </li>
         <li>
-          <Styles.ListLink to="/by-gender" end activeStyle={Styles.activeStyle}>
-            Gender
+          <Styles.ListLink to="/by-genre" end activeStyle={Styles.activeStyle}>
+            Genre
           </Styles.ListLink>
         </li>
         <li>
